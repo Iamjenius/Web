@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS 繼承</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="hw1.css">
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>CSS 繼承</h1>
+	</div>
+		<div id="list">
+			<ul class="listcss">
+				<li><a href="">CSS 語法教學</a></li>
+				<li><a href="">CSS 語法</a></li>
+				<li><a href="">CSS 語法套用方式</a></li>
+				<li><a href="">CSS 媒體類別</a></li>
+				<li><a href="">CSS 串接</a></li>
+				<li><a href="">CSS 繼承</a></li>
+				<li><a href="">CSS Class與Id</a></li>
+				<li><a href="">CSS Div 與 Span</a></li>
+				<li><a href="">CSS 長度單位</a></li>
+				<li><a href="">CSS 盒子模式</a></li>
+				<li><a href="">CSS 邊界 (Margin)</a></li>
+				<li><a href="">CSS 邊框 (Border)</a></li>
+				<li><a href="">CSS 留白 (Padding)</a></li>
+				<li><a href="">CSS 背景 (Background)</a></li>
+				<li><a href="">CSS 顏色</a></li>
+				<li><a href="">CSS 字體</a></li>
+				<li><a href="">CSS 連接</a></li>
+				<li><a href="">CSS 清單 (List)</a></li>
+				<li><a href="">CSS 表格 (Table)</a></li>
+				<li><a href="">CSS 位置 (Position)</a></li>
+				<li><a href="">CSS 文字 (Text)</a></li>
+				<li><a href="">CSS 浮動 (Float)</a></li>
+				<li><a href="">CSS 清除 (Clear)</a></li>
+				<li><a href="">CSS 滑鼠游標圖案</a></li>
+				<li><a href="">CSS 樣式</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<p>
+				<h2><a href="http://www.1keydata.com/css-tutorial/tw/">
+				CSS 教學 </a>
+				> 繼承
+				</h2>
+			</p>
+			<p style=" padding-top:25px;">
+				在一個 HTML 文件中，標籤之間有所謂的親子關係。舉例來說，< title >這個標籤一定都是在< head >這個標籤之內，所以我們就說< title >是< head >的子標籤。繼承 (inheritance)的意思就是說子標籤的樣式會跟父標籤一樣，除非子標籤本身另有自訂的樣式。
+			</p>
+			<p>
+				舉例來說，如果我們有以下的樣式：
+			</p>
+			<p class="s1">
+				p {color:#00FF00;}</br> 
+				strong {font-size:20px;}
+			</p>
+			<p>
+				下面這行 HTML 碼，
+			</p>
+			<p class="s1">
+				< p >這是一個 < strong >繼承的例子。< /strong >< /p >
+			</p>
+			<p>
+				就會顯現出為，
+			</p>
+			<p>
+				<font color="#00FF00">
+				這是一個<strong>繼承的例子。</strong>
+				</font>
+			</p>
+			<p>
+			在以上的例子中，雖然我們並沒有對< strong >設定顏色，可是我們可以看到，整個句子的顏色都是綠色的。這是因為，< strong >是 < p >的子標籤，所以< strong >繼承了< p >的樣式，而在< p >的樣式中，文字顏色是設定為綠色的。
+			</p></br>
+			<p style="text-align:center;">
+				下一頁 ： <a href="hw1-3.html">CSS Class 與 CSS ID</a>
+				</p>
+			<div id="footer">
+				Copyright © 2016  web前端開發   <a href="">王登禹</a>   版權所有
+			</div>
+		</div>
+</div>
+</body>

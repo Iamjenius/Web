@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Div 與 CSS Span</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="hw1.css">
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>CSS Div 與 CSS Span</h1>
+	</div>
+	<div id="list">
+		<ul class="listcss">
+			<li><a href="">CSS 語法教學</a></li>
+			<li><a href="">CSS 語法</a></li>
+			<li><a href="">CSS 語法套用方式</a></li>
+			<li><a href="">CSS 媒體類別</a></li>
+			<li><a href="">CSS 串接</a></li>
+			<li><a href="">CSS 繼承</a></li>
+			<li><a href="">CSS Class與Id</a></li>
+			<li><a href="">CSS Div 與 Span</a></li>
+			<li><a href="">CSS 長度單位</a></li>
+			<li><a href="">CSS 盒子模式</a></li>
+			<li><a href="">CSS 邊界 (Margin)</a></li>
+			<li><a href="">CSS 邊框 (Border)</a></li>
+			<li><a href="">CSS 留白 (Padding)</a></li>
+			<li><a href="">CSS 背景 (Background)</a></li>
+			<li><a href="">CSS 顏色</a></li>
+			<li><a href="">CSS 字體</a></li>
+			<li><a href="">CSS 連接</a></li>
+			<li><a href="">CSS 清單 (List)</a></li>
+			<li><a href="">CSS 表格 (Table)</a></li>
+			<li><a href="">CSS 位置 (Position)</a></li>
+			<li><a href="">CSS 文字 (Text)</a></li>
+			<li><a href="">CSS 浮動 (Float)</a></li>
+			<li><a href="">CSS 清除 (Clear)</a></li>
+			<li><a href="">CSS 滑鼠游標圖案</a></li>
+			<li><a href="">CSS 樣式</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<p>
+			<h2><a href="http://www.1keydata.com/css-tutorial/tw/">
+			CSS 教學 </a>
+			> CSS Div 與 CSS Span
+			</h2>
+		</p>
+		<p>
+			<h3>Div</h3>
+		</p>
+		<p>
+			Div 這個標籤目的是將內容分為不同的區域，而每一個區域可以根據 CSS 中的宣告而有自己的樣式。Div 是一個區塊級容器 (block-level container)，這代表在 < /div > 標籤後會換行。
+		</p>
+		<p>
+			舉例來說，如果我們有以下的 CSS 樣式：
+		</p>
+		<p class="s1">
+			.large {</br>
+  			color: #00FF00;</br>
+  			font-family:arial;</br>
+  			font-size: 4pt;</br>
+			}</br>
+		</p>
+		<p>
+			以下的 HTML 碼，
+		</p>
+		<p class="s1">
+			< div class="large" > 
+  			這是 DIV 範例。 
+			< /div >
+		</p>
+		<p>
+			就會顯現為，
+		</p>
+		<p class="s4">
+			這是 DIV 範例。
+		</p>
+		<h3>Span</h3>
+		<p>
+		Span 跟 Div 類似的地方是，這兩個標籤的目的都是將內容分為不同的區域。不同的是，Span可以涵蓋更細層的元素。所以，我們甚至可以用 < span >來調整單一文字的樣式。另外，在 < /span > 之後並不會換行。
+		</p>
+		<p>
+			舉例來說，如果我們有以下的 CSS 樣式：
+		</p>
+		<p class="s1">
+			.largefont {</br> 
+  			color: #0066FF;</br> 
+ 			font-family:arial;</br> 
+  			font-size: 6px;</br> 
+			}
+		</p>
+		<p>
+			以下的 HTML 碼，
+		</p>
+		<p class="s1">
+			Span 不是< span class="largefont >區塊級的< /span >.
+		</p>
+		<p>
+			就會顯現為，
+		</p>
+		<p>
+			Span 不是<span class="s5">區塊級的</span>
+		</p>
+		<p style="text-align:center;">
+			下一頁 ： <a href="hw1-5.html">CSS 長度單位</a>
+		</p>
+		<div id="footer">
+			Copyright © 2016  web前端開發   <a href="">王登禹</a>   版權所有
+		</div>
+	</div>
+</div>
+</body>
