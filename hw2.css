@@ -13,7 +13,6 @@
 	background: -webkit-linear-gradient(top,  #ffffff 0%,#f7f7f7 65%,#C6C6C6 100%); 
 	background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 65%,#C6C6C6 100%); 
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#C6C6C6',GradientType=0 ); 
-
 }
 .logo{
 	margin-left: 10px;
@@ -41,6 +40,9 @@
 	font-size:14px;
 	line-height:25px;
 	text-align: center;
+}
+.menu a:hover{
+	color:#4A4AFF;
 }
 .content{
 	width:550px;
@@ -101,7 +103,7 @@ p{
 	color:#3C3C3C;
 }
 .footer{
-	height:60px;
+	height:50px;
 	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
