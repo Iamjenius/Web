@@ -84,7 +84,6 @@
 }
 .button:hover{
 	background-color:#6C6C6C;
-	cursor:pointer;
 }
 .content{
 	width:760px;
@@ -157,6 +156,9 @@
 	text-align: center;
 	font-weight: bold;
 	color:#46A3FF;
+}
+.content2_event_search_button:hover{
+	background-color:#d0d0d0;
 }
 h1{
 	font-size:35px;
