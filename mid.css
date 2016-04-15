@@ -112,6 +112,7 @@
 .content2_event{
 	width: 500px;
 	float: left;
+	margin-bottom: 20px;
 }
 .content2_event li{
 	width:250px;
