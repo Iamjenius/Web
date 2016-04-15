@@ -10,27 +10,28 @@
 .top{
 	background-image:url(top.png);
 	height:8px;
+	margin-bottom: 30px;
 }
 .header{
 	height:90px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .logo{
 	margin-left: 100px;
-	margin-top: 20px;
+	float: left;
 }
 .menu{
 	width:800px;
 	float: left;
 	overflow:hidden;
-	margin-top:-40px;
+	margin-top:-30px;
 	margin-left:300px;
 }
 .connect{
 	display: inline;
 	position:relative;
-	top: -75px;
-	left: 865px;
+	top: 5px;
+	left: 595px;
 }
 .menu li{
 	text-align: center;
@@ -124,7 +125,6 @@
 .content2_event_list{
 	margin-left:550px;
 	width: 250px;
-	margin-top: -53px;
 }
 .content2_event_list li{
 	list-style-image:url("icon_03.png");
