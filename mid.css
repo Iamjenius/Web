@@ -79,6 +79,9 @@ table {
 	top: 10px;
 	left: 595px;
 }
+.connect a:hover{
+	opacity: 0.5;
+}
 .menu li{
 	text-align: center;
 	list-style: none;
