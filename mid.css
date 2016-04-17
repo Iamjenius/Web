@@ -180,6 +180,9 @@ table {
 .content2_event p{
 	line-height:25px;
 }
+.content2_event a:hover{
+	opacity: 0.8;
+}
 .content2_event_list{
 	margin-left:550px;
 	width: 250px;
