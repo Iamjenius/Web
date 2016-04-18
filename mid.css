@@ -208,6 +208,9 @@ table {
 	padding: 5px;
 	margin-bottom: 30px;
 }
+.content2_search_blank:focus{
+	border:2px solid #46A3FF;
+}
 .content2_search a{
 	padding-top: 7px;
 	padding-bottom: 7px;
