@@ -66,6 +66,7 @@ table {
 .logo{
 	margin-left: 100px;
 	float: left;
+	margin-bottom: -20px;
 }
 .menu{
 	width:800px;
@@ -74,7 +75,6 @@ table {
 	margin-left:340px;
 }
 .connect{
-	display: inline;
 	position:relative;
 	top: 10px;
 	left: 595px;
