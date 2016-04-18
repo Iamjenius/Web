@@ -52,7 +52,7 @@ table {
 	width:1000px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family:微軟正黑體;
+	font-family:'Source Sans Pro', sans-serif;
 	background-image:url(bg_html.jpg);
 }
 .top{
@@ -91,8 +91,8 @@ table {
 }
 .menu a{
 	color:#5B5B5B;
-	font-weight:bold;
-	font-size:14px;
+	font-weight:600;
+	font-size:16px;
 	line-height:25px;
 }
 .menu a:hover{
@@ -125,7 +125,7 @@ table {
 }
 .button{
 	position: relative;
-	top: 15px;
+	top: 40px;
 	left: 0px;
 	width:120px;
 	height: 35px;
@@ -144,8 +144,8 @@ table {
 	width:760px;
 	margin-left:100px;
 	background-color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-left: 30px;
 	padding-right: 30px;
 	margin-bottom: 25px;
@@ -183,45 +183,47 @@ table {
 .content2_event a:hover{
 	opacity: 0.8;
 }
-.content2_event_list{
+.content2_list{
 	margin-left:550px;
 	width: 250px;
 }
-.content2_event_list li{
+.content2_list li{
 	list-style-image:url("icon_03.png");
 	line-height: 30px;
 }
-.content2_event_list a{
+.content2_list a{
 	color:#3C3C3C; 
 }
-.content2_event_list a:hover{
+.content2_list a:hover{
 	color:#46A3FF;
 }
-.content2_event_search{
+.content2_search{
 	margin-left:550px;
 	width: 250px;
 }
-.content2_event_search_blank{
+.content2_search_blank{
 	width: 150px;
 	border:1px solid #BEBEBE;
 	color: 	#BEBEBE;
 	padding: 5px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 }
-.content2_event_search_button{
-	width:100px;
-	height: 35px;
-	line-height: 35px;
+.content2_search a{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color:#E0E0E0;
 	text-align: center;
 	font-weight: bold;
 	color:#46A3FF;
 }
-.content2_event_search_button:hover{
-	background-color:#d0d0d0;
+.content2_search a:hover{
+	background-color:#46A3FF;
+	color: white;
 }
 h2{
-	font-size:35px;
+	font-size:40px;
 	font-weight: normal;
 	line-height:35px;
 	padding-top: 20px;
@@ -231,8 +233,8 @@ h3{
 	font-size:25px;
 	padding-top: 25px;
 	padding-bottom: 20px;
-	font-weight:bold;
 	color:#3C3C3C;
+	font-weight: normal;
 }
 b{
 	font-size: 16px;
