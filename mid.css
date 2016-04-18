@@ -68,6 +68,10 @@ table {
 	float: left;
 	margin-bottom: -20px;
 }
+.logo:hover{
+ 	-webkit-transition: 1s;
+	-webkit-transform: scale(1.1);
+}
 .menu{
 	width:800px;
 	overflow:hidden;
