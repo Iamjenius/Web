@@ -325,7 +325,7 @@ h1{
 	width:100%;
 }
 .ad_pic{
-	margin-left: 50px;
+	margin-left: 40px;
 	height: auto;
 	float: none;
 }
@@ -335,7 +335,7 @@ h1{
 }
 .ad_bar{	
 	float: none;
-	margin-left:50px;
+	margin-left:40px;
 	width:480px;
 	max-width:100%;
 	height: auto;
@@ -361,15 +361,11 @@ h1{
 h3{
 	text-align: center;
 }
-.content2_event p{
-	width:50%;
-}
 .content2_sidebar{
 	float: none;
 	display: inline;
 }
 .content2_list,.content2_search{
-	margin-left: 20px;
 	width: 100%;
 	text-align: center;
 }
