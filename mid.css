@@ -292,18 +292,17 @@ h1{
 	float: none;
 	text-align: center;
 	margin: auto;
-	margin-bottom: 40px;
+	margin-bottom: 5%;
 }
-.connect img{
-	display: none;
-	max-width:90%;
-	height:auto;
-	margin:0 0 10px 0;
+.connect{
+	float: none;
+	margin-left: 10%;
+	margin-bottom: 5%;
 }
 .menu{
 	float: none;
 	margin:auto;
-	margin-bottom:20px;
+	margin-bottom:5%;
 	width: 90%;
 }
 .menu li{
@@ -322,38 +321,47 @@ h1{
 	color: white;
 }
 .ad{
-	width:100%;
+	width:80%;
 }
 .ad_pic{
-	margin-left: 40px;
+	margin-left: 10%;
 	height: auto;
 	float: none;
 }
 .ad_pic img{
+	width:90%;
 	max-width:100%;
 	height: auto;
 }
 .ad_bar{	
 	float: none;
-	margin-left:40px;
+	margin-left:10%;
 	width:480px;
-	max-width:100%;
+	width:70%;
 	height: auto;
-	padding-bottom: 20px;
+	padding-bottom: 10%;
+}
+.ad_bar p{
+	width:90%;
+	padding:5%;
+}
+.ad_bar h2{
+	width:80%;
+	padding: 10%;
 }
 .content,.content2{
 	width:480px;
-	max-width: 100%;
+	width: 70%;
 	padding-left:auto;
 	padding-right: auto;
-	margin-left: 50px;
+	margin-left: 10%;
 }
 .content2 img{
 	max-width: 100%;
 	height: auto;
 }
 .content2_event{
-	width:100%;
+	width:80%;
 }
 .content2_event li{
 	height: auto;
@@ -366,7 +374,7 @@ h3{
 	display: inline;
 }
 .content2_list,.content2_search{
-	width: 100%;
+	width: 80%;
 	text-align: center;
 }
 .content2_search{
@@ -387,7 +395,7 @@ h3{
 }
 .content2_list,.content2_search{
 	float: none;
-	margin-bottom: 30px;
+	margin-bottom: 25%;
 }
 }
 @media only screen and (max-width:480px) {
