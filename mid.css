@@ -197,6 +197,7 @@ h1:hover{
 .content2_list li{
 	list-style-image:url("icon_03.png");
 	line-height: 30px;
+	list-style-position: inside;
 }
 .content2_list a{
 	color:#3C3C3C; 
@@ -347,9 +348,6 @@ h1{
 	padding-right: auto;
 	margin-left: 50px;
 }
-.content2 h3{
-	margin-left: 40px;
-}
 .content2 img{
 	max-width: 100%;
 	height: auto;
@@ -371,7 +369,7 @@ h3{
 	display: inline;
 }
 .content2_list,.content2_search{
-	margin-left: 30px;
+	margin-left: 20px;
 	width: 100%;
 	text-align: center;
 }
