@@ -134,7 +134,7 @@ h1:hover{
 	text-align: justify;
 }
 .ad_bar:hover{
-	background-color:	#3C3C3C;
+	background-color:#3C3C3C;
 }
 .ad_button{
 	width:120px;
@@ -142,7 +142,7 @@ h1:hover{
 	line-height: 35px;
 	background-color:#4F4F4F;
 	text-align: center;
-	margin: 40px 0px 20px 0px;
+	margin: 30px 0px 20px 0px;
 	color: white;
 }
 .ad_button:hover{
